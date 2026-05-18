@@ -457,7 +457,7 @@ a[href^="mailto"] {
 
 .proof-strip {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   border-bottom: 1px solid var(--line);
   background: var(--panel);
 }
@@ -555,8 +555,11 @@ a[href^="mailto"] {
 }
 
 .checklist-grid,
-.care-grid,
 .safety-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.care-grid {
   grid-template-columns: repeat(3, 1fr);
 }
 
