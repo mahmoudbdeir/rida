@@ -694,10 +694,6 @@ details {
   text-transform: uppercase;
 }
 
-.timeline-placeholder {
-  margin-top: 1rem;
-}
-
 .journey-grid h3 {
   color: var(--cream);
 }
@@ -746,22 +742,6 @@ details {
 .site-footer a {
   color: var(--copper);
   font-weight: 900;
-}
-
-.placeholder-note {
-  display: inline;
-  padding: 0.12rem 0.28rem;
-  color: #fff200 !important;
-  background: #b00020 !important;
-  font-weight: 950;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-}
-
-p.placeholder-note {
-  display: block;
-  padding: 0.75rem 0.9rem;
-  margin-top: 1rem;
 }
 
 .faq-section {
